@@ -6,7 +6,7 @@ function Landing() {
     <div className="landing">
       <nav className=" bg-white border-gray-200 border-gray-600 bg-gray-900">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 ">
-          <a href="#" className="flex items-center">
+          <Link to={"/"} className="flex items-center">
             <img
               src="https://flowbite.com/docs/images/logo.svg"
               className="mr-3 h-6 sm:h-9"
@@ -15,7 +15,7 @@ function Landing() {
             <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
               V SwapAggregator
             </span>
-          </a>
+          </Link>
           <button
             data-collapse-toggle="mega-menu-full"
             type="button"
