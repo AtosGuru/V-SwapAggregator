@@ -1,23 +1,34 @@
 import { setup1inchWidget } from '@1inch/embedded-widget';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import $ from 'jquery';
 import "../assets/css/Swap.css";
+
 function Swap() {
+    const [loaded, setLoad] = useState(false);
     useEffect(() => {
-        setup1inchWidget({
+        const swapAggregator = setup1inchWidget({
             chainId: 137,
             sourceTokenSymbol: '1INCH',
             destinationTokenSymbol: 'DAI',
             hostElement: document.getElementById("v-aggregator"),
             // provider: window.ethereum,
-            theme: 'light',
+            theme: 'dark',
             sourceTokenAmount: '15'
         });
+        console.log(swapAggregator);
+        swapAggregator.onIframeLoad(() => {
+            setLoad(true);
+            console.log("############");
+            // var k = $("#oneInchWidgetFrame").contents().hide();
 
+        })
     }, [])
     return (
         <>
-            <div id="v-aggregator" className='w-full h-fit border-solid'>
+
+            <div id="v-aggregator" className='w-full h-screen border-solid' style={loaded ? { "visibility": "visible" } : { "visibility": "hidden" }} >
             </div>
+
         </>
     )
 
