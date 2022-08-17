@@ -26,9 +26,16 @@ function Swap() {
     <>
       <br />
       <br />
+      {!loaded ? (
+        <div className="a-container text-white text-center text-4xl w-full h-screen items-center h-100vh pt-32">
+          Loading...
+        </div>
+      ) : (
+        ""
+      )}
       <div
         id="v-aggregator"
-        className="w-full h-screen border-solid"
+        className="a-container w-full h-screen border-solid"
         style={loaded ? { visibility: "visible" } : { visibility: "hidden" }}
       ></div>
     </>
