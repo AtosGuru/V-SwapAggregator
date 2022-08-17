@@ -13,7 +13,7 @@ function Landing() {
               alt="VSwap Logo"
             />
             <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
-              V SwapAggregator
+              Best Swap Aggregator
             </span>
           </Link>
           <button
@@ -108,13 +108,14 @@ function Landing() {
         </div>
         <div class="row-span-2 p-4">
           <h1 className="text-white text-4xl text-center mt-2">
-            V Swap Aggregator
+            Best Swap Aggregator
           </h1>
           <br />
           <p className="text-center text-white text-xl">
             It's better than DEX. The industry-leading, multichain
             super-aggregator that offers you the best rates while paying you to
-            swap for your favorite tokens. Swap, Save, Earn. Only with V Swap.
+            swap for your favorite tokens. Swap, Save, Earn. Only with Best
+            Swap.
           </p>
           <br />
           <br />
@@ -157,7 +158,7 @@ function Landing() {
                 alt="VSwap Logo"
               />
               <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
-                V SwapAggregator
+                Best Swap Aggregator
               </span>
             </a>
           </div>
@@ -169,7 +170,7 @@ function Landing() {
               <ul class="text-gray-600 text-gray-400">
                 <li class="mb-4">
                   <a
-                    href="https://github.com/themesberg/flowbite"
+                    href="https://github.com/AtosGuru/V-Swap Aggregator"
                     class="hover:underline "
                   >
                     Github
@@ -209,7 +210,7 @@ function Landing() {
           <span class="text-sm text-gray-500 sm:text-center text-gray-400">
             © 2022{" "}
             <a href="https://flowbite.com/" class="hover:underline">
-              ATOS TEAM™
+              Best Swap Aggregator™
             </a>
             . All Rights Reserved.
           </span>

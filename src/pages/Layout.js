@@ -10,10 +10,10 @@ function Layout() {
             <img
               src="https://flowbite.com/docs/images/logo.svg"
               className="mr-3 h-6 sm:h-9"
-              alt="V Swap Logo"
+              alt="Best Swap Logo"
             />
             <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
-              V SwapAggregator
+              Best Swap Aggregator
             </span>
           </Link>
           <div className="flex md:order-2">
@@ -23,7 +23,7 @@ function Layout() {
               class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mr-2 "
               type="button"
             >
-                <svg
+              <svg
                 className="w-4 h-4 mr-2 -ml-1 text-[#626890]"
                 aria-hidden="true"
                 focusable="false"
