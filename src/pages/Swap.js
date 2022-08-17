@@ -17,8 +17,19 @@ function Swap() {
     console.log(swapAggregator);
     swapAggregator.onIframeLoad(() => {
       setLoad(true);
+      $.get('https://app.1inch.io/#/1/embedded-swap/1INCH/DAI?sourceTokenAmount=15&theme=dark').then(function (html) {
+        // Success response
+        var mainbar = $(html).find('body');
 
+        $("#deep").html($(mainbar).html());
+      }, function () {      // Error response
+        document.write('Access denied');
+      });
     })
+
+    // https://app.1inch.io/#/137/embedded-swap/1INCH/DAI?sourceTokenAmount=15&theme=dark
+
+
   }, [])
   return (
     <>
@@ -29,6 +40,7 @@ function Swap() {
         className="w-full h-screen border-solid"
         style={loaded ? { visibility: "visible" } : { visibility: "hidden" }}
       ></div>
+      <div id="deep"></div>
     </>
   );
 
