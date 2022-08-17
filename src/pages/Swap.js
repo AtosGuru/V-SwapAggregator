@@ -19,7 +19,7 @@ function Swap() {
         swapAggregator.onIframeLoad(() => {
             setLoad(true);
             console.log("############");
-            // var k = $("#oneInchWidgetFrame").contents().hide();
+
 
         })
     }, [])
