@@ -6,7 +6,7 @@ function Layout() {
     <>
       <nav className="bg-white px-2 sm:px-4 py-2.5 bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 border-gray-600">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
-          <Link to={"/to"} className="flex items-center">
+          <Link to={"/"} className="flex items-center">
             <img
               src="https://flowbite.com/docs/images/logo.svg"
               className="mr-3 h-6 sm:h-9"
