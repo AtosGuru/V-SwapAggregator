@@ -10,7 +10,7 @@ function Landing() {
             <img
               src="https://flowbite.com/docs/images/logo.svg"
               className="mr-3 h-6 sm:h-9"
-              alt="Flowbite Logo"
+              alt="VSwap Logo"
             />
             <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
               V SwapAggregator
@@ -144,9 +144,9 @@ function Landing() {
           </div>
         </div>
       </section>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
       <footer class="p-4 bg-white sm:p-6 bg-gray-900">
         <div class="md:flex md:justify-between flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4 md:px-6">
           <div class="mb-6 md:mb-0">
@@ -154,7 +154,7 @@ function Landing() {
               <img
                 src="https://flowbite.com/docs/images/logo.svg"
                 class="mr-3 h-8"
-                alt="FlowBite Logo"
+                alt="VSwap Logo"
               />
               <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
                 V SwapAggregator
@@ -162,23 +162,6 @@ function Landing() {
             </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase text-white">
-                Resources
-              </h2>
-              <ul class="text-gray-600 text-gray-400">
-                <li class="mb-4">
-                  <a href="https://flowbite.com/" class="hover:underline">
-                    Flowbite
-                  </a>
-                </li>
-                <li>
-                  <a href="https://tailwindcss.com/" class="hover:underline">
-                    Tailwind CSS
-                  </a>
-                </li>
-              </ul>
-            </div>
             <div>
               <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase text-white">
                 Follow us
