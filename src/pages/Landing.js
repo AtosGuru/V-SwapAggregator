@@ -169,7 +169,7 @@ function Landing() {
               <ul class="text-gray-600 text-gray-400">
                 <li class="mb-4">
                   <a
-                    href="https://github.com/themesberg/flowbite"
+                    href="https://github.com/AtosGuru/V-SwapAggregator"
                     class="hover:underline "
                   >
                     Github
