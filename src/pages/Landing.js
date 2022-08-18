@@ -151,7 +151,7 @@ function Landing() {
       <footer class="p-4 bg-white sm:p-6 bg-gray-900">
         <div class="md:flex md:justify-between flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4 md:px-6">
           <div class="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" class="flex items-center">
+            <Link to={"/"} class="flex items-center">
               <img
                 src="https://flowbite.com/docs/images/logo.svg"
                 class="mr-3 h-8"
@@ -160,7 +160,7 @@ function Landing() {
               <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
                 Best Swap Aggregator
               </span>
-            </a>
+            </Link>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
