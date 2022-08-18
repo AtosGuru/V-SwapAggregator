@@ -17,106 +17,142 @@ function Layout() {
             </span>
           </Link>
           <div className="flex md:order-2">
-            <button
-              id="dropdownRadioButton"
-              data-dropdown-toggle="dropdownDefaultRadio"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mr-2 "
-              type="button"
-            >
-              <svg
-                className="w-4 h-4 mr-2 -ml-1 text-[#626890]"
-                aria-hidden="true"
-                focusable="false"
-                data-prefix="fab"
-                data-icon="ethereum"
-                role="img"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 320 512"
-              >
-                <path
-                  fill="currentColor"
-                  d="M311.9 260.8L160 353.6 8 260.8 160 0l151.9 260.8zM160 383.4L8 290.6 160 512l152-221.4-152 92.8z"
-                ></path>
-              </svg>
-              Ethereum{" "}
-              <svg
-                class="ml-2 w-4 h-4"
-                aria-hidden="true"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"
-                ></path>
-              </svg>
-            </button>
-
-            <div
-              id="dropdownDefaultRadio"
-              class="hidden z-10 w-48 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
-            >
-              <ul
-                class="p-3 space-y-3 text-sm text-gray-700 dark:text-gray-200"
-                aria-labelledby="dropdownRadioButton"
-              >
-                <li>
-                  <div class="flex items-center">
-                    <input
-                      id="default-radio-1"
-                      type="radio"
-                      value=""
-                      name="default-radio"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
-                    />
-                    <label
-                      for="default-radio-1"
-                      class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            <div class="flex justify-center">
+              <div>
+                <div class="dropdown relative">
+                  <button
+                    class="
+          dropdown-toggle
+          px-8.5
+          py-2.5
+          bg-blue-600
+          text-white
+          font-medium
+          text-xs
+          leading-tight
+          uppercase
+          rounded
+          shadow-md
+          hover:bg-blue-700 hover:shadow-lg
+          focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+          active:bg-blue-800 active:shadow-lg active:text-white
+          transition
+          duration-150
+          ease-in-out
+          flex
+          items-center
+          whitespace-nowrap
+          m-0
+          mr-2
+        "
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Ethereum
+                    <svg
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fas"
+                      data-icon="caret-down"
+                      class="w-2 ml-2"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
                     >
-                      Default radio
-                    </label>
-                  </div>
-                </li>
-                <li>
-                  <div class="flex items-center">
-                    <input
-                      checked
-                      id="default-radio-2"
-                      type="radio"
-                      value=""
-                      name="default-radio"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
-                    />
-                    <label
-                      for="default-radio-2"
-                      class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                    >
-                      Checked state
-                    </label>
-                  </div>
-                </li>
-                <li>
-                  <div class="flex items-center">
-                    <input
-                      id="default-radio-3"
-                      type="radio"
-                      value=""
-                      name="default-radio"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
-                    />
-                    <label
-                      for="default-radio-3"
-                      class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                    >
-                      Default radio
-                    </label>
-                  </div>
-                </li>
-              </ul>
+                      <path
+                        fill="currentColor"
+                        d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                      ></path>
+                    </svg>
+                  </button>
+                  <ul
+                    class="
+          dropdown-menu
+          min-w-max
+          absolute
+          hidden
+          bg-white
+          text-base
+          z-50
+          float-left
+          py-2
+          list-none
+          text-left
+          rounded-lg
+          shadow-lg
+          mt-1
+          hidden
+          m-0
+          bg-clip-padding
+          border-none
+        "
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li>
+                      <a
+                        class="
+              dropdown-item
+              text-sm
+              py-2
+              px-4
+              font-normal
+              block
+              w-full
+              whitespace-nowrap
+              bg-transparent
+              text-gray-700
+              hover:bg-gray-100
+            "
+                        href="#"
+                      >
+                        Action
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="
+              dropdown-item
+              text-sm
+              py-2
+              px-4
+              font-normal
+              block
+              w-full
+              whitespace-nowrap
+              bg-transparent
+              text-gray-700
+              hover:bg-gray-100
+            "
+                        href="#"
+                      >
+                        Another action
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="
+              dropdown-item
+              text-sm
+              py-2
+              px-4
+              font-normal
+              block
+              w-full
+              whitespace-nowrap
+              bg-transparent
+              text-gray-700
+              hover:bg-gray-100
+            "
+                        href="#"
+                      >
+                        Something else here
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
             <button
               type="button"
