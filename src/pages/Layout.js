@@ -176,7 +176,9 @@ function Layout() {
         </div>
       </nav>
 
-      <Outlet></Outlet>
+      <div className="mt-10">
+        <Outlet></Outlet>
+      </div>
     </>
   );
 }
