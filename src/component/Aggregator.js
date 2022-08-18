@@ -15,7 +15,6 @@ function Aggregator() {
         console.log(swapAggregator);
         swapAggregator.onIframeLoad(() => {
             setLoad(true);
-            const url = 'https://app.1inch.io/#/1/embedded-swap/1INCH/DAI?sourceTokenAmount=15&theme=dark';
 
         })
     }, [])
