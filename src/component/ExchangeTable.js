@@ -65,6 +65,20 @@ function ExchangeTable() {
                                 ~$2.69%
                             </td>
                         </tr>
+                        <tr className="border-b border-gray-600 text-gray-400 text-lg font-bold">
+                            <td scope="col" className="px-6 py-7">
+                                UniswapV4 <div className="bg-red-700 text-sm w-fit px-2 rounded-md inline text-center"> -0.015%</div>
+                            </td>
+                            <td scope="col" className="px-6 py-7">
+                                1865.27 DAI
+                            </td>
+                            <td scope="col" className="px-6 py-7">
+                                1865.27 DAI
+                            </td>
+                            <td scope="col" className="px-6 py-7">
+                                ~$2.69%
+                            </td>
+                        </tr>
 
                     </tbody>
                 </table>
